@@ -3,6 +3,11 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
 p {
     line-height: 1.5;
     margin: 0;
@@ -23,4 +28,9 @@ p {
 .museum {
     display: block;
     margin: 20px auto;
+}
+
+.gallery {
+    display: grid;
+    gap: 40px;
 }
