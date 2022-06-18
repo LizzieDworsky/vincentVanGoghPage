@@ -4,13 +4,14 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
         <title>Artist Vincent Van Gogh</title>
     </head>
     <body>
         <header><h1>Vincent Van Gogh</h1></header>
         <main>
             <img
-                width="300"
+                class="self-portrait"
                 src="https://www.vincentvangogh.org/images/paintings/self-portrait.jpg"
                 alt="Artist Vincent Van Gogh's self-portrait, painted in 1889"
             />
@@ -26,10 +27,20 @@
                 modern art. He was not commercially successful and, struggling
                 with severe depression and poverty, committed suicide at the age
                 of 37.
-                <a href="https://en.wikipedia.org/wiki/Vincent_van_Gogh"
-                    >Learn More on Wikipedia</a
-                >
             </p>
+            <a
+                class="learn-more"
+                href="https://en.wikipedia.org/wiki/Vincent_van_Gogh"
+                target="_blank"
+                >Learn More on Wikipedia</a
+            >
+            <button
+                class="museum"
+                onclick="location.href='https://www.vangoghmuseum.nl/nl'"
+                target="_blank"
+            >
+                Visit Van Gogh's Museum in Amsterdam
+            </button>
             <div class="gallery">
                 <div class="photo">
                     <img
@@ -61,6 +72,5 @@
                 </div>
             </div>
         </main>
-        <footer></footer>
     </body>
 </html>
