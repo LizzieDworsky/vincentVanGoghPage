@@ -1,16 +1,46 @@
+body {
+    background: linear-gradient(
+        112.1deg,
+        rgb(32, 38, 57) 11.4%,
+        rgb(63, 76, 119) 70.2%
+    );
+}
+
 h1 {
     text-align: center;
     font-size: 50px;
+    color: #abb8c2;
+    text-shadow: 2px 2px white;
+    margin-bottom: 25px;
 }
 
 h2 {
     text-align: center;
     font-size: 30px;
+    color: #abb8c2;
+    margin-bottom: 30px;
+}
+
+main {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #abb8c2;
+    padding: 5% 5% 1% 5%;
+    border-radius: 8em;
+    color: #202639;
 }
 
 p {
     line-height: 1.5;
     margin: 0;
+    margin-top: 20px;
+}
+
+hr {
+    border-style: none;
+    border-top: 5px solid #202639;
+    border-radius: 5px;
+    width: 100%;
 }
 
 .self-portrait {
@@ -23,6 +53,11 @@ p {
 .learn-more {
     text-decoration: none;
     font-size: 12px;
+    color: #202639;
+}
+
+.learn-more:hover {
+    color: #eee6de;
 }
 
 .museum {
@@ -31,6 +66,17 @@ p {
 }
 
 .gallery {
-    display: grid;
-    gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.photo {
+    width: 400px;
+    height: auto;
+}
+
+.buy-button {
+    display: block;
+    margin: 20px auto;
 }
